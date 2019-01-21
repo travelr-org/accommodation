@@ -1,6 +1,7 @@
 #!/usr/bin/env groovy
-
-/**
+/** 
+ * a new comment line
+ *
  * groovy script to migrate (export) GitHub.com repositories to GitHub Enterprise
  * 
  * Automates steps in https://github.com/blog/2171-migrate-your-repositories-using-ghe-migrator
