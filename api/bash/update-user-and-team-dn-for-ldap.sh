@@ -164,7 +164,8 @@ while read -r line || [[ -n "${line}" ]]; do
 EOF
   }
 
-  # Team Exists, call API to Update LDAP Mapping
+  # Team Exists, 
+  # call API to Update LDAP Mapping
   if [[ response -eq 200 ]]; then
     curl -s --request PATCH \
       --url ${API_ROOT}/admin/ldap/teams/${team_id}/mapping \
